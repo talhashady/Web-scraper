@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment and credentials
+.env
+.env.*
+!.env.example
+credentials*.json
+service-account*.json
+token*.json
+
+# Runtime data
+backend/data/
+backend/logs/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Scrape/debug output
+debug_*.html
+*_raw.html
+search_page.html
+initial_data.json
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
